@@ -6,8 +6,7 @@ Pod::Spec.new do |s|
   s.description  = "RN3dTouchView"
   s.homepage     = "algodevlabs.com"
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "author@domain.cn" }
+  s.author       = { "author" => "mush@algodevlabs.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/mdmush/react-native-3d-touch-view.git", :tag => "master" }
   s.source_files  = "RN3dTouchView/**/*.{h,m}"
@@ -15,7 +14,6 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React"
-  #s.dependency "others"
 
 end
 
